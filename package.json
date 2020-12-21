@@ -1,0 +1,27 @@
+{
+  "name": "algochurn-server",
+  "version": "1.0.0",
+  "description": "⚡️ Back-end for AlgoChurn web application, Node Express &amp; MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlaceholderTech/algochurn-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PlaceholderTech/algochurn-server/issues"
+  },
+  "homepage": "https://github.com/PlaceholderTech/algochurn-server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6",
+    "slugify": "^1.4.6",
+    "uuid": "^8.3.2"
+  }
+}
