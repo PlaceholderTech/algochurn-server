@@ -50,6 +50,17 @@ router.get('/:questionId', async (req, res) => {
     } catch(err) {
         res.json({message: err});
     }
+});
+
+router.delete('/:questionId', async(req, res) => {
+    const questionId = req.params.questionId;
+
+    try {
+        const result = await Question.remove({questionId: questionId})
+        res.json({message: result})
+    } catch(err) {
+        res.json({message: err});
+    }
 })
 
 module.exports = router;
